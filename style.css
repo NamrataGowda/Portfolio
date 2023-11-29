@@ -1,0 +1,104 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+body{
+    background-color:ivory;
+}
+.container{
+    padding: 50px;
+}
+.menu{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    padding:30px;
+}
+.menu-items{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.menu-items a {
+    text-decoration: none;
+    color: goldenrod
+}
+.name{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color:green;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.experience{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.qualification{
+padding: 30px;
+}
+.skill{
+padding: 30px;
+}
+.menu-ex, .menu-q, .skill-name{
+    list-style: none;
+    font-weight:450;
+}
+.para-s,.para-ex,.para-q{
+    color:green;
+}
+.work-1{
+    background-color: yellow;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.work-2{
+    background-color: magenta;
+    display: flex;
+    justify-content: flex-end;
+    height:300px;
+    font-weight: 500;
+}
+.work-3{
+    background-color: mediumseagreen;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.work-4{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    height:300px;
+    font-weight: 500;
+}
+#flappybird{
+    height: 300px;
+    width:400px;
+}
+#snakegame{
+    height: 300px;
+    width:400px;
+}
+#earthify{
+    height: 300px;
+    width:400px;
+}
+#merc{
+    height: 300px;
+    width:400px;
+}
